@@ -2,7 +2,7 @@ import requests
 
 class LineNotify:
     def __init__(self, token, api):
-        self.line_notify_token = 'O18iHn7FkuvIkEDDzfL9CjA70wPklYC6YSpfob9sNfZ'
+        self.line_notify_token = ''　#token num
         self.line_notify_api = 'https://notify-api.line.me/api/notify'
 
     def send_message(self, message):
